@@ -1,5 +1,5 @@
 class Item():
-    """The base class for all items"""
+    """The default class for all items, use this class if you are new to the game"""
     def __init__(self, name, description, value):
         self.name = name
         self.description = description
