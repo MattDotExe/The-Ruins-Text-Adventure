@@ -43,3 +43,10 @@ class Brimstone(Weapon):
                          description="A stone completely identical to the average rock, although strangely enough you feel as though it has a skin-like texture to it. It seems to often pus out blood in a straight line at random.",
                          value=0,
                          damage=5)
+
+class Brimstone(Weapon):
+    def __init__(self):
+        super().__init__(name="Mace",
+                         description="Back in the War of the Village, this very rusty Mace was used to fight off the Skeletons from The Ruins. Most people think that weapons like this should be with the soilders at the memorial, but the Weaponsmith insists that if something like that were to happen again, people would want them to be here.",
+                         value=0,
+                         damage=5)
