@@ -48,5 +48,5 @@ class Brimstone(Weapon):
     def __init__(self):
         super().__init__(name="Mace",
                          description="Back in the War of the Village, this very rusty Mace was used to fight off the Skeletons from The Ruins. Most people think that weapons like this should be with the soilders at the memorial, but the Weaponsmith insists that if something like that were to happen again, people would want them to be here.",
-                         value=0,
-                         damage=5)
+                         value=10,
+                         damage=12)
