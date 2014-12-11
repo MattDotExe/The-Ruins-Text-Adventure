@@ -22,25 +22,25 @@ class Silver(Item):
         return "{}\n=====\n{}\nValue: {}\nDamage: {}".format(self.name, self.description, self.value, self.damage)
  
  
-class Rock(Weapon):
+class Book(Weapon):
     def __init__(self):
-        super().__init__(name="Rock",
-                         description="A fist-sized rock, suitable for bludgeoning.",
+        super().__init__(name="Book",
+                         description="A Book that you just so happened to notice as you walked into the Weaponsmith. Don't know why you would want to take the book instead of a Sledgehammer or a sword, but it's your life to lead.",
                          value=0,
                          damage=5)
  
  
-class Wooden Club(Weapon):
+class Sword(Weapon):
     def __init__(self):
-        super().__init__(name="Wooden Club",
-                         description="A Large Wooden Club that seems to have a dried blood covered everywhere. I wonder what happened..",
+        super().__init__(name="Sword",
+                         description="A particularly large sword that the Weaponsmith tells you had been used in the great battle of the ruins, .",
                          value=10,
                          damage=10)
                          
 class Brimstone(Weapon):
     def __init__(self):
         super().__init__(name="Brimstone",
-                         description="A stone completely identical to the Rock, although strangely enough you feel as though it has a skin-like texture to it. It seems to often pus out blood in a straight line at random",
+                         description="A stone completely identical to the average rock, although strangely enough you feel as though it has a skin-like texture to it. It seems to often pus out blood in a straight line at random.",
                          value=0,
                          damage=5)
                          
