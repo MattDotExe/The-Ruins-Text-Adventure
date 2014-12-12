@@ -25,7 +25,7 @@ class Silver(Item):
 class Book(Weapon):
     def __init__(self):
         super().__init__(name="Book",
-                         description="A Book that you just so happened to notice as you walked into the Weaponsmith. Don't know why you would want to take the book instead of a Sledgehammer or a sword, but it's your life to lead. As you look at the book more you realize that it is a book about the history of your village, but when you open it, the language used in the book is something that is out of this world.",
+                         description="A Book that you just so happened to notice as you walked into the Weaponsmith. Don't know why you would want to take the book instead of a Mace or a Sword, but it's your life to lead. As you look at the book more you realize that it is a book about the history of your village, but when you open it, the language used in the book is something that is out of this world.",
                          value=0,
                          damage=5)
  
@@ -42,7 +42,7 @@ class Brimstone(Weapon):
         super().__init__(name="Brimstone",
                          description="A stone completely identical to the average rock, although strangely enough you feel as though it has a skin-like texture to it. It seems to often pus out blood in a straight line at random.",
                          value=0,
-                         damage=5)
+                         damage=7)
 
 class Brimstone(Weapon):
     def __init__(self):
